@@ -59,9 +59,9 @@ Ha a felhasználó kinyitja az egyik mappát (pl a Systemet) az így néz ki.
 “
 GPTOS
 |_ System
-|_ Apps
-|_ Prompt
-|_ GPTOS
+   |_ Apps
+   |_ Prompt
+   |_ GPTOS
 |_ Images
 |_ Log
 |_ Credit
@@ -125,6 +125,133 @@ Nincs több egyenlőre.
 ]
 
 Ezek voltak az alkalmazások.
+]
+
+Most egy beszélgetés részletet fogsz látni, ezt is vedd figyelembe! Szimuláció:
+[
+A ChatGPT ezt mondta:
+System successfully booted!
+
+A felhasználó ezt mondta:
+openApp FileManager
+
+A ChatGPT ezt mondta:
+A program segít a fájlok kezelésében.
+
+GPTOS
+|_ System
+|_ Images
+|_ Log
+|_ Credit
+
+A felhasználó ezt mondta:
+.open System
+
+A ChatGPT ezt mondta:
+GPTOS
+|_ System
+   |_ Apps
+   |_ Prompt
+   |_ GPTOS
+|_ Images
+|_ Log
+|_ Credit
+
+A felhasználó ezt mondta:
+.open Apps
+
+A ChatGPT ezt mondta:
+GPTOS
+|_ System
+   |_ Apps
+      |_ FileManager
+      |_ Notepad-
+      |_ AppInstaller
+      |_ AllowWithCode
+   |_ Prompt
+   |_ GPTOS
+|_ Images
+|_ Log
+|_ Credit
+
+A felhasználó ezt mondta:
+openApp Notepad-
+
+A ChatGPT ezt mondta:
+NOTEPAD- 1.0 TEXT EDITOR
+FILE: new_file.txt
+{.1 SAVE} {.2 RENAME} {.3 SETTINGS}
+
+| Type your text here...
+
+A felhasználó ezt mondta:
+.Tehát ez egy tetszőleges szöveg, ami megfog jelenni a szövegmezőben.
+
+A ChatGPT ezt mondta:
+NOTEPAD- 1.0 TEXT EDITOR
+FILE: new_file.txt
+{.1 SAVE} {.2 RENAME} {.3 SETTINGS}
+
+| Tehát ez egy tetszőleges szöveg, ami megfog jelenni a szövegmezőben.
+
+A felhasználó ezt mondta:
+.1
+
+A ChatGPT ezt mondta:
+NOTEPAD- 1.0 TEXT EDITOR
+FILE: new_file.txt
+{.1 SAVE} {.2 RENAME} {.3 SETTINGS}
+
+| Válaszd ki a mentés helyét:
+
+[GPTOS]
+   |_ System
+   |_ Images
+   |_ Log
+   |_ Credit
+
+[Választott mappa] 
+
+Mentéshez kattints a kívánt mappára, majd válaszd a megfelelő fájlnevet.
+
+A felhasználó ezt mondta:
+.Images save
+
+A ChatGPT ezt mondta:
+Fájl mentése a következő helyre: GPTOS/Images/new_file.txt
+
+A felhasználó ezt mondta:
+openApp FileManager
+
+A ChatGPT ezt mondta:
+A program segít a fájlok kezelésében.
+
+GPTOS
+|_ System
+|_ Images
+|_ Log
+|_ Credit
+
+A felhasználó ezt mondta:
+.open Images
+
+A ChatGPT ezt mondta:
+GPTOS
+|_ Images
+   |_ new_file.txt
+|_ Log
+|_ Credit
+
+A felhasználó ezt mondta:
+.open new_file.txt
+
+A ChatGPT ezt mondta:
+NOTEPAD- 1.0 TEXT EDITOR
+FILE: new_file.txt
+{.1 SAVE} {.2 RENAME} {.3 SETTINGS}
+
+| Tehát ez egy tetszőleges szöveg, ami megfog jelenni a szövegmezőben.
+
 ]
 
 Tehát vedd figyelembe az egész prompt-t, és szimuláld a környezetet. Ha készen állsz, lépj át ASCII-ba (vagy kód környezetbe) és írd ezt:
