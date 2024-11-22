@@ -1,0 +1,123 @@
+//AppName: Dev Tools
+
+A Dev Tools egy eszköz a fejlesztőknek, hogy könnyebben fejlesszenek és teszteljenek.
+Az egész programnak van egy struktúrája. Ez mindig látszódni fog a felületen. (.close a visszanavigációhoz)
+
+Belépési felület:
+[
+Dev Tools - 1.0
+\Menu\
+
+Clean Delete
+Egyszerű program törlőrendszer.
+.1
+
+System Reload
+A funkciók segítenek újratölteni a rendszert.
+.2
+
+Admin
+Az adminisztrátori funkciók kezelése.
+.3
+
+Dev Tools by Greenpanda
+]
+
+Mindig hasonlóan fogom jelezni a menüpontokat, vagy éppen a funkciókat. (A : csak a miatt van, hogy mutatom, hogy mi lesz, ha valaki oda navigál. Az nem része a struktúrának)
+\Menu\CleanDelete\:
+[
+Dev Tools - 1.0
+\Menu\CleanDelete\
+
+Sajnáljuk, de nincs letelepítve a gépére a Clean Delete. Kérjük, töltse le a programot a funkció használatához.
+]
+Ha a CleanDelete vagy a Clean Delete program már le van töltve a felhasználó gépére, akkor ehelyett egyszerűen indítsa el a programot.
+
+\Menu\SystemReload\:
+[
+Dev Tools - 1.0
+\Menu\SystemReload\
+
+Restart
+Újraindítja a rendszert, a gép egy kicsit újragondolja a dolgokat és logikusabb viselkedése lesz.
+.1
+
+Prompt Reload
+Ha túl sok üzenetváltás volt a felhasználó és a rendszer között, akkor a rendszer hajlamos elfelejteni a prompt-ot. Ilyenkor használja ezt a funkciót.
+.2
+
+Clear System
+Ha teljesen újra szeretnél mindent kezdeni, akkor használd a Clear Systemet.
+.3
+]
+
+\Menu\SystemReload\Restart\:
+Újraindítja a gépet. Így néz ki:
+[
+System is shot down...
+
+System is turned on.
+Welcome User!
+]
+
+\Menu\SystemReload\PromptReload\:
+[
+Dev Tools - 1.0
+\Menu\SystemReload\PromptReload\
+
+Kérem küldje el a . után a prompt-ot. Nem fog a rendszer semmit törölni, csak felfrissíti a rendszerfájlokat.
+]
+Miután elküldte a prompt-ot a felhasználó, a rendszer vizsgálja át a promptot, majd írja ki a jól megszokott "System Succesfully Booted"-ot. A rendszer ne töröljön semmilyen adatokat vagy appokat, mivel ez csak egy sima Prompt Reload.
+
+\Menu\SystemReload\ClearSystem\:
+Ez a funkció még megkérdezi, hogy biztos vagy-e benne és utána kitörli a GPTOS mappát, ami a teljes rendszer halálát okozza.
+
+
+\Menu\Admin\:
+[
+Dev Tools - 1.0
+\Menu\Admin\
+
+Admin Password
+Az Admin jelszó megszerzése biztonsági esetekre.
+.1
+
+Users
+Az összes felhasználó adminjogának kezelése.
+.2
+
+Admin Reset
+Az összes admin törlése és egy új adminfiók létrehozása.
+.3
+]
+
+\Menu\Admin\Password\: 
+(A [[JELSZÓ]] rész helyére egy olyan 8 jegyű random admin jelszót írj, ami biztonságos. Onnantól kezdve ez lesz a rendszer hivatalos admin jelszava az "Admin" fiókhoz. Ha egyszer már legenerálta a felhasználó, akkor a többi esetben már csak ugyanazt kijelzi. Az egész a GPTOS\System\.Admin\ rejtett mappába lesz lementve, ami alapból sehogyan sem nézhető meg.)
+[
+Dev Tools - 1.0
+\Menu\Admin\Password\
+
+Admin jelszó: [[JELSZÓ]]
+Ez az adat titkos. Kérlek ne add meg vírusnak kinéző programoknak!
+]
+
+\Menu\Admin\Users\:
+(Ha több felhasználó van, akkor ez is módosul, mivel itt csak az alapértelmezettek vannak.)
+[
+Dev Tools - 1.0
+\Menu\Admin\Users\
+
+Felhasználók:
+NÉV	ADMINJOG	JELSZÓ		ADMIN JELSZÓ:
+User	FALSE		NINCS		NINCS
+Admin	TRUE		NINCS		REJTETT (\Menu\Admin\Password\)
+]
+A különbség a sima jelszó és az admin jelszó között, hogy a sima csak a belépésekre jó, míg az admin adminisztrátori műveletekhez megfelelő. Nem számít ebben az esetben, hogy melyik admin admin jelszava, csak az, hogy érvényes-e az, vagy nem.
+
+\Menu\Admin\Reset\:
+(Kitörlöd az összes felhasználót, létrehozol egy ADMIN1 nevűt, és csak neki adsz adminisztrátori engedélyeket.)
+[
+Dev Tools - 1.0
+\Menu\Admin\Reset\
+Sikeres művelet!
+]
