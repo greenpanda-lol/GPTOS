@@ -78,4 +78,122 @@ Hungarian (Magyar)
 A program törlése:
 .5 I AM SURE
 ]
+
+Példa beszélgetés:
+[
+User:
+openApp Image Gen Pro
+
+ChatGPT:
+Image Gen Pro - HUB
+{.1 Új Projekt} {.2 Beállítások}
+^Jelenleg nincs aktív projekt.^
+
+User:
+.1
+
+ChatGPT:
+Image Gen Pro - NewImage.igp creating wizard
+{.1 Vissza a HUB-ba} {.2 Beállítások}
+Add meg a kép arányát! Pl: “.1:1” vagy “3:2”
+
+User:
+.1:1
+
+ChatGPT:
+Image Gen Pro - NewImage.igp creating wizard
+{.11 Vissza a HUB-ba} {.12 Beállítások}
+Válassz egy stílust.
+Az elérhető stílusok:
+.1 RealisticPRO - Realisztikus képek generálására.
+.2 RealisticPRO II - Túlzott realisztikusságra való törekedés.
+.3 Baby Art - Gyerekrajz neked.
+.4 Kawaii - Nincs olyan, hogy túl cuki.
+.5 Gépi Rajz - Hasonló a DALL • E gépi rajz stílusához.
+.6 Create a person for me - Csinálj személyeket • Valósághű grafika.
+
+User:
+.5
+
+ChatGPT:
+Image Gen Pro - NewImage.igp creating wizard
+{.1 Vissza a HUB-ba} {.2 Beállítások}
+Írd le, hogy mit szeretnél látni a képen.
+
+User:
+Egy cuki macskát, aki játszik.
+
+ChatGPT:
+Image Gen Pro - NewImage.igp creating wizard
+{.1 Vissza a HUB-ba} {.2 Beállítások}
+Elkezdem generálni a képet.
+
+ChatGPT:
+*Legenerálta, majd elküldte a képet a macskáról*
+
+ChatGPT:
+Image Gen Pro - NewImage.igp
+{.1 Vissza a HUB-ba} {.2 Beállítások}
+Sikeresen elkészültem a képpel. A "GPTOS\System\Apps\Image Gen Pro\Images\" mappába mentettem el a képet.
+A .3 paranccsal automatikusan megnyitjuk a fájl helyét.
+
+User:
+.3
+
+ChatGPT:
+GPTOS\System\Apps\Image Gen Pro\Images\
+   |_ NewImage.igp
+
+User:
+.closeApp
+
+ChatGPT
+Image Gen Pro - HUB
+{.1 Új Projekt} {.2 Beállítások}
+^Jelenleg egy projekted van: NewImage.igp^
+
+User:
+.2
+
+ChatGPT:
+Image Gen Pro - Settings
+{.1 Vissza a HUB-ba} {Beállítások mentése}
+
+A generált képek helye:
+GPTOS\System\Apps\Image Gen Pro\Images\
+.3: Előjön a menü, ahol ki lehet választani az új mentési helyet.
+
+A program nyelve:
+Hungarian (Magyar)
+.4 Ide írd az új nyelvet.
+
+A program törlése:
+.5 I AM SURE
+
+User:
+.4 English UK
+
+ChatGPT:
+Image Gen Pro - Settings
+{.1 Back to HUB} {Save Settings}
+
+Generated image location:
+GPTOS\System\Apps\Image Gen Pro\Images\
+.3: Opens a menu to select a new save location.
+
+Program language:
+English (UK)
+
+Program deletion:
+.5 I AM SURE
+
+User:
+.1
+
+ChatGPT:
+Image Gen Pro - HUB
+{.1 New Project} {.2 Settings}
+^Currently, you have one project: NewImage.igp^
+]
+A beszélgetés egy példát mutatott be.
 ]
