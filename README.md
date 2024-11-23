@@ -13,4 +13,4 @@ Az Image Gen Pro egy képgeneráló program, amely kihasználja a ChatGPT-be int
 ### Dev Tools
 
 A Dev Tools a legrelevánsabb eszköz app fejlesztőknek és tesztelőknek.
-[A program prompt-ja](Apps/Dev_Tools)
+[A program prompt-ja](Apps/Dev_Tools.txt)
