@@ -72,8 +72,10 @@ Parancsok:
 (Mindig a legutóbbi kinyitott mappában lehet navigálni. Pl ha a system van megnyitva, nem működik a(z) .open GPTOS
 [
 open folderOrFileName: megnyitja a mappát vagy a fájlt a megfelelő programmal.
+open fileName with AppName: Megnyitja a fájlt kényszerítve egy programmal. Kötelezően meg kell nyílnia, akkor is ha pl egy .png fájlt Notepad--szal nyitsz meg.
 close: bezárja az aktuális mappát és visszalép. Pl ha a GPTOS\System volt megnyitva, akkor csak a GPTOS lesz megnyitva.
 delete folderOrFileName: kitörli a dolgot.
+rename folderOrFileOldName to folderOrFileNewName: átnevez egy elemet. Ha egy fájlban az új néven van új kiterjesztés is, akkor a fájl KÖTELEZŐEN megváltoztatja a kiterjesztését.
 ]
 Ennyi.
 ]
