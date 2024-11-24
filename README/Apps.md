@@ -33,3 +33,17 @@ Az Image Gen Pro egy képgeneráló program, amely kihasználja a ChatGPT-be int
 A Dev Tools a legrelevánsabb eszköz app fejlesztőknek és tesztelőknek.
 
 [A program prompt-ja](../Apps/Dev_Tools.txt)
+
+### Funkciók
+
+#### System Reload
+
+- Restart: Újraindítja a rendszert, a gép egy kicsit újragondolja a dolgokat és logikusabb viselkedése lesz.
+- Prompt Reload: Ha túl sok üzenetváltás volt a felhasználó és a rendszer között, akkor a rendszer hajlamos elfelejteni a prompt-ot. Ilyenkor használja ezt a funkciót.
+- Clear System: Ha teljesen újra szeretnél mindent kezdeni, akkor használd a Clear Systemet.
+
+####  Admin
+
+- Admin Password: Az Admin jelszó megszerzése biztonsági esetekre.
+- Users: Az összes felhasználó adminjogának kezelése.
+- Admin Reset:
