@@ -2,6 +2,7 @@
 
 - [Image Gen pro](#image-gen-pro)
 - [Dev Tools](#dev-tools)
+- [StoryBot](#storybot)
 
 ## Image Gen Pro
 
@@ -50,3 +51,21 @@ A Dev Tools a legrelevánsabb eszköz app fejlesztőknek és tesztelőknek.
 - Admin Password: Az Admin jelszó megszerzése biztonsági esetekre.
 - Users: Az összes felhasználó adminjogának kezelése.
 - Admin Reset: Az összes admin törlése és egy új adminfiók létrehozása.
+
+## StoryBot
+
+Készíts történeketet az AI segítségével!
+
+[A program prompt-ja](../Apps/StoryBot.txt)
+
+### Műfajok
+- .1 Fantasy: Varázslók, sárkányok, királyságok és epikus kalandok. Példa: "Egy fiatal kovácsfiú egy elveszett mágikus fegyverre bukkan."
+- .2 Sci-fi: Jövőbeli technológia, űrutazás, mesterséges intelligencia és idegen civilizációk. Példa: "Egy ember, aki az űrhajóján magányosan lebeg az univerzumban."
+- .3 Horror: Félelmetes helyzetek, szörnyek, szellemek és misztikus fenyegetések. Példa: "Egy kisvárosban éjszakánként emberek tűnnek el rejtélyes módon."
+- .4 Romantikus: Szerelem, kapcsolatok, és az érzelmek mély vizsgálata. Példa: "Egy fiatal művész találkozik az álmai szerelmével egy festői tengerparton."
+- .5 Kaland: Felfedezések, veszélyes küldetések, egzotikus helyszínek. Példa: "Egy csoport kalandor a dzsungelben elveszett kincset keres."
+- .6 Misztikus/Detektív: Rejtélyek, nyomozás, csavaros bűnügyi esetek. Példa: "Egy detektívnek meg kell oldania egy rejtélyt egy látszólag elhagyatott kastélyban."
+- .7 Poszt-apokaliptikus: Egy összeomlott társadalom, túlélés a világvége után. Példa: "Egy túlélő egy romos városban próbál életben maradni az élőhalottak között."
+- .8 Történelmi: Valós események ihlette, de kreatív csavarral. Példa: "Egy középkori kovács álma, hogy király legyen."
+- .9 Vígjáték: Könnyed, humoros helyzetek és szórakoztató karakterek. Példa: "Egy peches szakács, aki véletlenül megnyer egy főzőversenyt."
+- .10 Szuperhős/Anti-hős: Hősök különleges képességekkel, akik megmentik (vagy épp káoszba taszítják) a világot. Példa: "Egy gimnazista, aki felfedezi, hogy képes olvasni mások gondolataiban."
