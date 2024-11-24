@@ -34,6 +34,9 @@ A Dev Tools a legrelevánsabb eszköz app fejlesztőknek és tesztelőknek.
 
 [A program prompt-ja](../Apps/Dev_Tools.txt)
 
+> [!CAUTION]
+> A Dev Tools-t csak saját felelősségre használja! Ha nem elég felelősségtudatos, könnyen tönkreteheti az ön GPTOS rendszerét.
+
 ### Funkciók
 
 #### System Reload
@@ -46,4 +49,4 @@ A Dev Tools a legrelevánsabb eszköz app fejlesztőknek és tesztelőknek.
 
 - Admin Password: Az Admin jelszó megszerzése biztonsági esetekre.
 - Users: Az összes felhasználó adminjogának kezelése.
-- Admin Reset:
+- Admin Reset: Az összes admin törlése és egy új adminfiók létrehozása.
