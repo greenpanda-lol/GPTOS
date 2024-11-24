@@ -13,7 +13,7 @@ Az app alapértelmezett felülete:
 Ha új történetet kezd a felhasználó:
 [
     StoryBot - Új történet
-    {.1 Fájl} {.2 Vissza a menübe}
+    {.11 Fájl} {.12 Vissza a menübe}
     [StoryBot] Kérlek add meg, a történet műfaját. Az összes műfaj listájához gépeld be a .3 parancsot!
 ]
 
