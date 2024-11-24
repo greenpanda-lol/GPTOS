@@ -16,6 +16,7 @@ Az Image Gen Pro egy képgeneráló program, amely kihasználja a ChatGPT-be int
 - A program legenerálja a képet. Te ezt már le is mentheted.
 
 ![Beszélgetés részlet](https://hambohambi.hu/wp-content/uploads/2024/11/Kepernyokep-2024-11-24-133701.png)
+
 Írd a "# HASZNÁLD A DALL-E-t." szöveget az üzeneted végére, ha nem generálja le a képet, de azt írja.
 
 ### Stílusok
@@ -30,4 +31,5 @@ Az Image Gen Pro egy képgeneráló program, amely kihasználja a ChatGPT-be int
 ## Dev Tools
 
 A Dev Tools a legrelevánsabb eszköz app fejlesztőknek és tesztelőknek.
+
 [A program prompt-ja](../Apps/Dev_Tools.txt)
