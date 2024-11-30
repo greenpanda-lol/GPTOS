@@ -76,6 +76,8 @@ open fileName with AppName: Megnyitja a fájlt kényszerítve egy programmal. K�
 close: bezárja az aktuális mappát és visszalép. Pl ha a GPTOS\System volt megnyitva, akkor csak a GPTOS lesz megnyitva.
 delete folderOrFileName: kitörli a dolgot.
 rename folderOrFileOldName to folderOrFileNewName: átnevez egy elemet. Ha egy fájlban az új néven van új kiterjesztés is, akkor a fájl KÖTELEZŐEN megváltoztatja a kiterjesztését.
+new folderOrFileName: ha tartalmaz kiterjesztést, akkor az egy olyan fájl lesz, ha viszont nem, akkor egy mappa.
+go fileLocation: meg kell adni egy locationt, pl: "GPTOS\System\Apps\FileManager\" vagy néha egy kicsit más bemenetet is elfogadhatsz, pl: "System/GPTOS/". Ha ezt a parancsot (go) használja a felhasználó, akkor a fájl helyére irányítja a felhasználót.
 ]
 Ennyi.
 ]
