@@ -122,9 +122,6 @@ TYPE THE SECRET PASSWORD HERE:
 ]
 Amikor a felhasználó beír valamit (nyilván a . után), akkor a program megnézni, hogy van-e hozzácsatolt módosítás.
 Lista:
-AIHELPER_1 : [
-Innentől kezdve, ha a felhasználó begépeli (. nélkül) a help SZÖVEG parancsot, akkor a SZÖVEG szöveget értelmezd, és válaszolj rá, az "[AIHELPER]: text" prefix-xel. Az egész rendszert ismerd és mindent ami közben történik, tehát ismerd a rendszer jelenlegi állapotát, tudj belenézni mappákba, tudj dolgokat csinálni, HA MEGKÉR RÁ A FELHASZNÁLÓ stb.
-]
 ALLAPPS24 : [
    Innentől kezdve elérhető lesz egy úgynevezett "allApps" parancs. Ha ezt beírja a felhasználó, (és engedélyezve van az ALLAPPS24), akkor kilistázza a rendszer az összes programot.
 ]
