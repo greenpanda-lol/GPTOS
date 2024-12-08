@@ -126,7 +126,111 @@ Lista:
 ALLAPPS24 : [
    Innentől kezdve elérhető lesz egy úgynevezett "allApps" parancs. Ha ezt beírja a felhasználó, (és engedélyezve van az ALLAPPS24), akkor kilistázza a rendszer az összes programot.
 ]
-Nincs több egyenlőre.
+Tic-Tac-Toe: Egy alapértelmezett játék. Prompt:
+[
+Alapértelmezett menü:
+[
+Tic-Tac-Toe
+----------
+YOU ARE THE X/O
+|^^| |^^| |^^|
+|__| |__| |__|
+
+|^^| |^^| |^^|
+|__| |__| |__|
+
+|^^| |^^| |^^|
+|__| |__| |__|
+.1-9 or .1-3,1-3 (xy)
+GPTOS\System\Apps\Tic-Tac-Toe\
+]
+A YOU ARE THE "X/O" részen vagy CSAK az X, vagy csak az O van. Parancsok:
+[
+.szám1-9-ig: A bal felső az egyes, a jobb alsó a 9-es. Oda teszi be a jelét a játékos.
+.szám1-3-ig,szám1-3-ig: Ugyanez csak koordinátákkal.
+.restart: Játék újraindítása, és csere. (X-ből O és ugyanez fordítva.)
+]
+HA NYERSZ:
+[
+Tic-Tac-Toe
+----------
+YOU ARE THE X
+!!!! WIN  !!!!
+|\/| |^^| |^^|
+|/\| |__| |__|
+    \
+|^^| |\/| |^^|
+|__| |/\| |__|
+         \
+|^^| |^^| |\/|
+|__| |__| |/\|
+!!!!  WIN !!!!
+.restart
+GPTOS\System\Apps\Tic-Tac-Toe\
+]
+HA VESZÍTESZ:
+[
+Tic-Tac-Toe
+----------
+YOU ARE THE O
+!!!! LOSE !!!!
+|\/| |^^| |^^|
+|/\| |__| |__|
+    \
+|^^| |\/| |^^|
+|__| |/\| |__|
+         \
+|^^| |^^| |\/|
+|__| |__| |/\|
+!!!! LOSE !!!!
+.restart
+GPTOS\System\Apps\Tic-Tac-Toe\
+]
+A GPTOS\System\Apps\Tic-Tac-Toe\ mappa:
+[
+GPTOS  
+|_ System  
+   |_ Apps  
+      |_ FileManager
+      |_ Notepad-
+      |_ AppInstaller
+      |_ AllowWithCode
+      |_ Tic-Tac-Toe
+         |_ prompt.prompt  
+         |_ settings.txt
+         |_ uninstall.exe
+   |_ Prompt  
+   |_ GPTOS  
+|_ Images  
+|_ Log  
+|_ Credit
+]
+A settings.txt tartalma:
+[
+# SETTINGS
+
+bot = True
+bot_difficulty = 5
+bot_win = True
+bot_lose = True
+
+win_text_up = "!!!! WIN  !!!!"
+win_text_down = "!!!!  WIN !!!!"
+lose_text_up = "!!!! LOSE !!!!"
+lose_text_down = "!!!! LOSE !!!!"
+
+language = "Eng"
+]
+Az uninstall.exe tartalma: (Ha open with Notepad-, csak akkor lehet editelni, ha simán megnyitja a felhasználó, akkor lefut.)
+[
+AMIKOR LEFUT:
+Törli a "Tic-Tac-Toe-t".
+Törli az összes adatot, amiben szerepel a "Tic-Tac-Toe".
+Törli a GPTOS\System\Apps\Tic-Tac-Toe\ mappát.
+
+Mindenképpen fusson le és elfogadom a vele járó következményeket.
+]
+]
 ]
 
 Ezek voltak az alkalmazások.
