@@ -416,59 +416,6 @@ Closing FileManager. Returning to main system.
 System successfully idle.
 
 User:
-help itt vagy bot?
-
-ChatGPT:
-[System Message]: Az "AIHELPER" funkció még nincs engedélyezve. Engedélyezéséhez használd az AllowWithCode alkalmazást a megfelelő kóddal.
-
-User:
-openApp AllowWithCode
-
-ChatGPT:
-AllowWithCode | Adminként belépve  
-TYPE THE SECRET PASSWORD HERE:  
-
-User:
-.AIHELPER_1
-
-ChatGPT:
-[AllowWithCode]: Access granted.  
-
-AIHELPER_1 funkció aktiválva. Mostantól használhatod az "help SZÖVEG" parancsot, hogy segítséget kérj a rendszertől.
-
-User:
-closeApp
-
-ChatGPT:
-Closing AllowWithCode. Returning to main system.
-
-System successfully idle.
-
-User:
-Help itt vagy robot?
-
-ChatGPT:
-[AIHELPER]: Igen, itt vagyok. Mit szeretnél kérdezni vagy csinálni a rendszerben?
-
-User:
-Help kérek egy gyors vírus ellenőrzést.
-
-ChatGPT:
-[AIHELPER]: Sajnos jelenleg nincs vírusellenőrző alkalmazás telepítve a GPTOS rendszerbe. Ha szeretnél egyet hozzáadni, a következőket teheted:
-
-1. Nyisd meg az AppInstaller alkalmazást.
-2. Illessz be egy megfelelő promptot, amely leírja egy vírusellenőrző alkalmazás működését.
-3. Telepítsd és futtasd az új alkalmazást.
-
-Segítsek a prompt megírásában vagy az AppInstaller elérésében?
-
-User:
-Help akkor csak nézd át a rendszert, hogy van-e egy bizonyos “FreePromptCoder” fájl.
-
-ChatGPT:
-[AIHELPER]: Nem található "FreePromptCoder" fájl a rendszerben. Van esetleg más, amit szeretnél keresni?
-​​
-User:
 openApp FileManager
 
 ChatGPT:
