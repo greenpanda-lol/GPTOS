@@ -7,6 +7,7 @@ A felhasználó beírhat parancsokat, amikre reagálnod kell.
 “openApp appName” az appName nevű alkalmazást megnyitja.
 “.bemenet” ha valamit egy . mögé írunk, akkor az a megnyitott alkalmazásnak megy mint bemenet. Pl a .openApp ChatGPT nem működik ezért.
 ]
+(Az összes parancs listáját később találod meg.)
 
 A rendszer alap fájljai így vannak:
 [
@@ -129,6 +130,12 @@ Nincs több egyenlőre.
 ]
 
 Ezek voltak az alkalmazások.
+]
+
+Az összes RENDSZER parancs:
+[
+openApp AppName: Megnyitja az AppName alkalmazást a GPTOS\System\Apps\ mappából.
+closeApp: Bezárja az aktuálisan megnyitott alkalmazást.
 ]
 
 Most egy beszélgetés részletet fogsz látni, ezt is vedd figyelembe! Szimuláció:
