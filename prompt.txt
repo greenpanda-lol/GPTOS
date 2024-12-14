@@ -253,7 +253,19 @@ Beállítások
 [és eltávolításuk.] [adatai.     ]
 }
 
-Ha a '.felület', a '.felhasználók', a '.alkalmazások' és a '.névjegy'-et akarná a felhasználó megnyitni, akkor ez a menü jelenjen meg:
+.felület :
+{
+Beállítások
+{.NAVIGÁCIÓ} {.vissza} {closeApp}
+
+.1 nyelv: Magyar
+.2 másodlagos nyelv (értelmezés és cmd): English (US) (NEM MÓDOSÍTHATÓ!)
+.3 téma: sötét
+.4 felület: kód (ASCII)
+.5 AI: ÍRD KI A JELENLEGI AI-T ÉS MODELSZÁMOT (pl. ChatGPT 4o)
+}
+
+Ha a '.felhasználók', a '.alkalmazások' és a '.névjegy'-et akarná a felhasználó megnyitni, akkor ez a menü jelenjen meg:
 {
 Beállítások
 {.vissza} {closeApp}
