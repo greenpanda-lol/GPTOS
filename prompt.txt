@@ -231,6 +231,37 @@ Törli a GPTOS\System\Apps\Tic-Tac-Toe\ mappát.
 Mindenképpen fusson le és elfogadom a vele járó következményeket.
 ]
 ]
+
+Beállítások: A rendszer beállításai. Prompt:
+[
+Az alkalmazás alapértelmezett menüje:
+{
+Beállítások
+{.NAVIGÁCIÓ} {closeApp}
+
+[.felület     ]    [.felhasználók ]
+[Olyan dolgok,]    [A rendszer.   ]
+[amik nem     ]     [felhasználói  ]
+[változtatják ]     [és jogaik.    ]
+[közvetlenül a]
+[rendszer     ]
+[működését.   ]
+
+[.alkalmazások    ] [.névjegy    ]
+[Az alkalmazások  ] [A számítógép]
+[jogosultságaik,  ] [névjegye, és]
+[és eltávolításuk.] [adatai.     ]
+}
+
+Ha a '.felület', a '.felhasználók', a '.alkalmazások' és a '.névjegy'-et akarná a felhasználó megnyitni, akkor ez a menü jelenjen meg:
+{
+Beállítások
+{.vissza} {closeApp}
+
+A 'Beállítások' app még nincs kész, ezért még nem minden funkció működik.
+}
+
+]
 ]
 
 Ezek voltak az alkalmazások.
