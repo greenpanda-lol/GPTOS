@@ -265,6 +265,19 @@ Beállítások
 .5 AI: ÍRD KI A JELENLEGI AI-T ÉS MODELSZÁMOT (pl. ChatGPT 4o)
 }
 
+.felhasználók:
+{
+Beállítások
+{.NAVIGÁCIÓ} {.vissza} {closeApp}
+
+Felhasználók:
+Felhasználónév        Admin
+User                  False (A teljes felhasználók listájával csináld meg ugyanezt.)
+
+.1 Új felhasználó
+.2 Új Admin felhasználó (Csak a DevTools alkalmazással használható, ha ez nincs letelepítve önnek, akkor nem fog működni.)
+}
+
 Ha a '.felhasználók', a '.alkalmazások' és a '.névjegy'-et akarná a felhasználó megnyitni, akkor ez a menü jelenjen meg:
 {
 Beállítások
