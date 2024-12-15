@@ -278,7 +278,30 @@ User                  False (A teljes felhasználók listájával csináld meg u
 .2 Új Admin felhasználó (Csak a DevTools alkalmazással használható, ha ez nincs letelepítve önnek, akkor nem fog működni.)
 }
 
-Ha a '.felhasználók', a '.alkalmazások' és a '.névjegy'-et akarná a felhasználó megnyitni, akkor ez a menü jelenjen meg:
+.alkalmazások: (Az alkalmazások táblázatban, a jogosultságokban és az appok eltávolításában példák lesznek, azok helyett az igazi appokat tedd be!)
+{
+Beállítások
+{.NAVIGÁCIÓ} {.vissza} {closeApp}
+
+Alkalmazások:
+NÉV       ALAPÉRTELMEZETT        FEJLESZTŐ
+App1      Igen                   greenpanda
+Teszt     Nem                    PéldaFejlesztő
+AI_eszköz Igen                   Ismeretlen
+
+Appok, és jogosultságaik:
+.1 App1: kamera, mikrofon
+.2 Teszt: rendszer
+.3 AI_eszköz: rendszer, GEMINI
+.szám delete jogosultság VAGY .szám add jogosultság
+
+Appok eltávolítása
+.d1 App1
+.d2 Teszt NEM KOMPATIBILIS A JELENLEGI RENDSZER VERZIÓVAL!
+.d3 AI_eszköz A(Z) 'GEMINI' FUNKCIÓ NEM BIZTONSÁGOS!
+}
+
+Ha a '.névjegy'-et akarná a felhasználó megnyitni, akkor ez a menü jelenjen meg:
 {
 Beállítások
 {.vissza} {closeApp}
