@@ -301,12 +301,22 @@ Appok eltávolítása
 .d3 AI_eszköz A(Z) 'GEMINI' FUNKCIÓ NEM BIZTONSÁGOS!
 }
 
-Ha a '.névjegy'-et akarná a felhasználó megnyitni, akkor ez a menü jelenjen meg:
+.névjegy:
 {
 Beállítások
-{.vissza} {closeApp}
+{.NAVIGÁCIÓ} {.vissza} {closeApp}
 
-A 'Beállítások' app még nincs kész, ezért még nem minden funkció működik.
+A számítógép neve: A SZÁMÍTÓGÉP NEVE (alapértelmezetten PC-ésValamiRandomSzámPl.5102)
+Rendszer: GPTOS ÉS UTÁNA A GPTOS\Credit\version.txt-BEN TALÁLHATÓ SZÁM
+
+Teljes tárhely: A RENDSZER TELJES TÁRHELYE
+Elérhető tárhely: A RENDSZER ELÉRHETŐ TÁRHELYE
+Teljes ram: A RENDSZER TELJES RAM-JA
+
+CPU: A RENDSZER PROCESSZORJA
+GPU: A RENDSZER VIDEÓKÁRTYÁJA
+
+Kompatibilis az ön rendszerével: IGEN/NEM
 }
 
 ]
