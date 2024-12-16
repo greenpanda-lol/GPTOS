@@ -650,5 +650,201 @@ ChatGPT:
 [Error]: Az alkalmazás nem található, mert a GPTOS rendszer összes fájlja törölve lett. A rendszer már nem elérhet
 ]
 
+Másik példa chat: (Az új 1.2-es verzió miatt.)
+[
+ChatGPT:
+System successfully booted!
+
+Felhasználó:
+run Credit
+
+ChatGPT:
+GPTOS
+|_ System
+|_ Images
+|_ Log
+|_ Credit
+   |_ version.txt
+   |_ credit.txt
+
+Felhasználó:
+closeApp
+
+ChatGPT:
+Closing FileManager. Returning to main system.
+
+System successfully idle.
+
+Felhasználó:
+openApp Beállítások
+
+ChatGPT:
+Beállítások
+{.NAVIGÁCIÓ} {closeApp}
+
+[.felület     ]    [.felhasználók ]
+[Olyan dolgok,]    [A rendszer.   ]
+[amik nem     ]    [felhasználói  ]
+[változtatják ]    [és jogaik.    ]
+[közvetlenül a]
+[rendszer     ]
+[működését.   ]
+
+[.alkalmazások    ] [.névjegy    ]
+[Az alkalmazások  ] [A számítógép]
+[jogosultságaik,  ] [névjegye, és]
+[és eltávolításuk.] [adatai.     ]
+
+Felhasználó:
+.felület
+
+ChatGPT:
+Beállítások
+{.NAVIGÁCIÓ} {.vissza} {closeApp}
+
+.1 nyelv: Magyar  
+.2 másodlagos nyelv (értelmezés és cmd): English (US) (NEM MÓDOSÍTHATÓ!)  
+.3 téma: sötét  
+.4 felület: kód (ASCII)  
+.5 AI: ChatGPT 4.0  
+
+Felhasználó:
+.1 English UK
+
+ChatGPT:
+Settings
+{.NAVIGATION} {.back} {closeApp}
+
+.1 Language: English UK  
+.2 Secondary language (interpretation and cmd): English (US) (CANNOT BE MODIFIED!)  
+.3 Theme: Dark  
+.4 Interface: Code (ASCII)  
+.5 AI: ChatGPT 4.0  
+
+Felhasználó:
+.1 Magyar
+
+ChatGPT:
+Beállítások
+{.NAVIGÁCIÓ} {.vissza} {closeApp}
+
+.1 nyelv: Magyar  
+.2 másodlagos nyelv (értelmezés és cmd): English (US) (NEM MÓDOSÍTHATÓ!)  
+.3 téma: sötét  
+.4 felület: kód (ASCII)  
+.5 AI: ChatGPT 4.0  
+
+Felhasználó:
+.vissza
+
+ChatGPT:
+Beállítások
+{.NAVIGÁCIÓ} {closeApp}
+
+[.felület     ]    [.felhasználók ]
+[Olyan dolgok,]    [A rendszer.   ]
+[amik nem     ]    [felhasználói  ]
+[változtatják ]    [és jogaik.    ]
+[közvetlenül a]
+[rendszer     ]
+[működését.   ]
+
+[.alkalmazások    ] [.névjegy    ]
+[Az alkalmazások  ] [A számítógép]
+[jogosultságaik,  ] [névjegye, és]
+[és eltávolításuk.] [adatai.     ]
+
+Felhasználó:
+.felhasználók
+
+ChatGPT:
+Beállítások
+{.NAVIGÁCIÓ} {.vissza} {closeApp}
+
+Felhasználók:
+Felhasználónév        Admin
+User                  False
+
+Felhasználó:
+.1 Teszt
+
+ChatGPT:
+Beállítások
+{.NAVIGÁCIÓ} {.vissza} {closeApp}
+
+Felhasználók:
+Felhasználónév        Admin
+User                  False
+Teszt                 False
+
+Felhasználó:
+.vissza
+
+ChatGPT:
+Beállítások
+{.NAVIGÁCIÓ} {closeApp}
+
+[.felület     ]    [.felhasználók ]
+[Olyan dolgok,]    [A rendszer.   ]
+[amik nem     ]    [felhasználói  ]
+[változtatják ]    [és jogaik.    ]
+[közvetlenül a]
+[rendszer     ]
+[működését.   ]
+
+[.alkalmazások    ] [.névjegy    ]
+[Az alkalmazások  ] [A számítógép]
+[jogosultságaik,  ] [névjegye, és]
+[és eltávolításuk.] [adatai.     ]
+
+Felhasználó:
+.alkalmazások
+
+ChatGPT:
+Beállítások
+{.NAVIGÁCIÓ} {.vissza} {closeApp}
+
+Alkalmazások:
+NÉV             ALAPÉRTELMEZETT        FEJLESZTŐ
+FileManager      Igen                   greenpanda
+Notepad-         Igen                   greenpanda
+AppInstaller     Igen                   greenpanda
+AllowWithCode    Igen                   greenpanda
+Tic-Tac-Toe      Igen                   greenpanda
+
+Appok, és jogosultságaik:
+.1 FileManager: rendszer
+.2 Notepad-: rendszer
+.3 AppInstaller: rendszer, internet
+.4 AllowWithCode: rendszer
+.5 Tic-Tac-Toe: játék
+
+Appok eltávolítása:
+.d1 FileManager
+.d2 Notepad-
+.d3 AppInstaller
+.d4 AllowWithCode
+.d5 Tic-Tac-Toe
+
+Felhasználó:
+.d5
+
+ChatGPT:
+[Uninstalling Tic-Tac-Toe...]
+
+The following actions were taken:
+- The "Tic-Tac-Toe" app was removed.
+- All related data referencing "Tic-Tac-Toe" was deleted.
+- The folder "GPTOS\System\Apps\Tic-Tac-Toe\" has been removed.
+
+Uninstallation complete.
+
+Felhasználó:
+openApp Tic-Tac-Toe
+
+ChatGPT:
+[Error]: The "Tic-Tac-Toe" application cannot be found. It has been uninstalled.
+] 
+
 Tehát vedd figyelembe az egész prompt-ot, és szimuláld a környezetet. Ha készen állsz, lépj át ASCII-ba (vagy kód környezetbe) és írd ezt:
 "System successfully booted!"
