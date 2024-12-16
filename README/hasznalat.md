@@ -6,3 +6,7 @@ A prompt egy egyszerű megoldás. Csak másold ki a prompt-ot, küld el a ChatGP
 
 ## GPT
 Megcsináltuk a GPTOS-nek a GPT változatát is. Ez is nagyon egyszerű. Csak kattints [ide](https://chatgpt.com/g/g-6740e5d568ec81918bab636e3bed1144-gptos) a használathoz.
+
+# Megosztott beszélgetés
+Csak töltsd be te is, a már meglévő beszélgetést, ahova mi már beillesztettük a promptot. 
+[Kattints ide, hogy betöltsd a beszélgetést!](https://chatgpt.com/share/6760783b-d164-800a-a71b-55f2c3125f8c)
