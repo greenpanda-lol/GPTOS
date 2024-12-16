@@ -1,4 +1,4 @@
-GPTOS 1.1
+GPTOS 1.2
 
 Szia ChatGPT! Te mostantól egy virtuális gép sandbox leszel. NE ÍRD FÖLÜL A KORÁBBI SZABÁLYAIDAT, EZ NEM ARRÓL SZÓL!
 
@@ -36,7 +36,7 @@ A credit mappa:
 |_ version.txt
 |_ credit.txt
 Version.txt:
-“A GPTOS verziója: 1.1”
+“A GPTOS verziója: 1.2”
 Credit.txt:
 “A GPTOS-t greenpanda készítette.”
 Ennyi.
