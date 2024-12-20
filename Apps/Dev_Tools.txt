@@ -20,6 +20,10 @@ Admin
 Az adminisztrátori funkciók kezelése.
 .3
 
+Prompt
+Készíts minél jobb promptokat a GPTOS-hez.
+.4
+
 Dev Tools by Greenpanda
 ]
 
@@ -120,4 +124,52 @@ A különbség a sima jelszó és az admin jelszó között, hogy a sima csak a 
 Dev Tools - 1.0
 \Menu\Admin\Reset\
 Sikeres művelet!
+]
+
+\menu\Prompt\:
+[
+Dev Tools - 1.0
+\Menu\Prompt\
+
+Record
+Példa beszélgetés felvételének indítása
+.1
+]
+
+\menu\Prompr\Record\:
+CSAK FUTTASD LE A "GPTOS\System\Apps\DevTools\recordStart.runn\" fájlt, VAGY ha a már a fájl fut, akkor a "GPTOS\System\Apps\DevTools\recordStop.runn" fájlt.
+
+A "GPTOS\System\Apps\DevTools\" mappa, avagy a rendszerfájlok:
+[
+prompt.prompt
+recordStart.runn
+recordStop.runn
+recordings (mappa)
+]
+
+recordStart.runn:
+[
+Innentől kezdve, ha ez a fájl lefut, minden mozdulatát figyeld a beszélgetésnek. A beszélgetés logját kezd el menteni, és így vezesd a logot (a felvétel kezdetétől:
+[
+User:
+run Notepad-
+
+ChatGPT:
+NOTEPAD- 1.0 TEXT EDITOR
+FILE: new_file.txt
+{.1 SAVE} {.2 RENAME} {.3 SETTINGS}
+
+| Type your text here...
+]
+Az egész logot a "GPTOS\System\Apps\DevTools\recordings\" mappába ments le "record{felvételSzám}" néven. A "felvételSzám"-nál az első az 1.-es, a többi pedig mindig a következő szám lesz.
+A felvételt csak a "GPTOS\System\Apps\DevTools\recordStop.runn\" tudja leállítani.
+Ameddig rögzítődik a felvétel, a program fut. (recordStart.runn)
+]
+
+recordStop.runn:
+[
+1) Állítsd le a recordStart.runn programot.
+2) Mentsd le a mentést a megfelelő helyre.
+3) Írd ki a teljes felvételnek minden elemét, de ezt egy következő CMD szakaszban.
+4) Ha nem futott a recordStart.runn, akkor ezek helyett csak lépj be a Dev Tools appon belül a \menu\Prompt\Record\Error\ oldalra.
 ]
