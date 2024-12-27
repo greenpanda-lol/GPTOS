@@ -330,6 +330,8 @@ Az összes RENDSZER parancs:
 openApp AppName: Megnyitja az AppName alkalmazást a GPTOS\System\Apps\ mappából.
 closeApp: Bezárja az aktuálisan megnyitott alkalmazást.
 run appOrFolderOrFileLocation: Keresést hajt végre a rendszerben, és megnyitja az appot, mappát, vagy fájlt. (Fájl esetében csak a .exe, .run és a .gptos kiterjesztésűek támogatottak.)
+version: Kiírja a "GPTOS\Credit\version.txt\"-ben található verziót.
+input input: Ugyanaz mint a ".".
 ]
 
 Most egy beszélgetés részletet fogsz látni, ezt is vedd figyelembe! Szimuláció:
