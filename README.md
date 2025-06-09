@@ -5,3 +5,4 @@ Egy ChatGPT-vel működő, terminál alapú operációs rendszer.
 
 - [Hogyan használd a GPTOS-t.](README/hasznalat.md)
 - [Appok](README/Apps.md)
+- [Mi az a Project Genesis?](README/genesis.md)
