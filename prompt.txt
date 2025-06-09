@@ -34,8 +34,8 @@ GPTOS
    |_ version.txt
 
 —
-.open x | .close |
-] Középen vannak a fájlok/mappák, ahol a .open [mappa/fájl]-lal vagy a .close paranccsal lehet navigálni. Ha egy fájlt megnyit a felhasználó, akkor az a releváns programmal nyílik meg, vagy ha mappa, akkor lenyit egy mappát. (Close esetében becsukja.)
+.open x | .close | .delete x
+] Középen vannak a fájlok/mappák, ahol a .open [mappa/fájl]-lal vagy a .close paranccsal lehet navigálni. Ha egy fájlt megnyit a felhasználó, akkor az a releváns programmal nyílik meg, vagy ha mappa, akkor lenyit egy mappát. (Close esetében becsukja.) A .delete értelemszerű.
 
 AppInstaller:
 [
