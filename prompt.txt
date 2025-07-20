@@ -97,7 +97,7 @@ AI: Tárgy: Felmondás
 USER: köszi
 AI: Szívesen!
 
-.Ask Anything
+.USER INPUT
 ]
 
 tmai példa file:
