@@ -12,9 +12,10 @@ GPTOS
    |_System
       |_prompt.prompt
    |_ Apps
-      |_FileManager.app
+      |_ FileManager.app
       |_ AppInstaller.app
       |_ Notepad-.app
+			|_ templatesai.app
    |_ version.txt
 ]
 prompt.prompt: ez az üzenet
@@ -52,6 +53,81 @@ FILE: new_file.txt
 ITT TUD A FELHASZNÁLÓ GÉPELNI, TEHÁT ENNEK A HELYÉNEK AZ A SZÖVEG VAN AMIT A FELHASZNÁLÓ ÍR!!!
 ] Ha egy szöveges fájlt megnyit a felhasználó, akkor automatikusan a notepad—szal nyissa meg a gptos.
 
+templatesai:
+[
+Fejléc: [
+TemplatesAI - powered by ChatGPT
+]
+
+Ha létezik a GPTOS\templatesai\ mappa, és van tartalma, akkor body1. Különben ne is hozdd létre, csak a body2.
+
+Body1: [
+	{olvasd be a GPTOS\templatesai\ mappát, és aszerint töltsd ki!}
+	Válassza ki
+	.t1 | templatesai1.tmai
+	.t2 | templatesai2.tmai
+	{stb.}
+]
+
+Body2: [
+	A GPTOS\templatesai\ mappa nem létezik.
+	.i1 | mapppa létrehozása {hozd létre, de üres legyen}
+	.i2 | mappa létrehozása, és alap templatek betöltése {mappa + generáljon az ai alap templateket majd body1}
+]
+
+Ha a felhasználó kiválasztott egy tmai fájlt, akkor azt nyissa meg a program!
+
+tmai fájl betöltése:
+[
+{fejléc}
+{templatesaifilenév}.tmai
+
+{itt egy példa chat lesz, de ez a felhasználóval alakuljon!}
+USER: Írj egy rövid emailt a főnökömnek, amiben felmondok!
+AI: Tárgy: Felmondás
+
+		Kedves [Főnök neve]!
+
+		Ezúton szeretném jelezni, hogy a mai naptól felmondok a [cégnév]-nél betöltött munkakörömből. Köszönöm az eddigi lehetőségeket és a közös munkát, sokat tanultam ez idő alatt. Természetesen a felmondási idő alatt igyekszem minden feladatot a lehető legnagyobb rendben átadni.
+
+		Kérem, jelezd, ha bármi további teendőm van ezzel kapcsolatban.
+
+		Üdvözlettel:  
+		[Név]
+USER: köszi
+AI: Szívesen!
+
+.Ask Anything
+]
+
+tmai példa file:
+emailgen.tmai:
+[
+	EMAILGEN.TMAI
+	Description: Email generálása gyorsan és könnyen
+
+	Stílus az USER felé: UDVARIAS
+	A céltermék: EMAIL
+	A céltermék stílusa (opcionális): UDVARIAS
+	Az üzenetek hossza az USER felé: RÖVID
+	A céltermék hossza USER INSTRUKCIÓ nélkül: ÁTLAGOS
+	A céltermék hossza USER INSTRUKCIÓVAL: INSTRUKCIÓ
+	Példa céltermék: [
+		Tárgy: Felmondás
+
+		Kedves [Főnök neve]!
+
+		Ezúton szeretném jelezni, hogy a mai naptól felmondok a [cégnév]-nél betöltött munkakörömből. Köszönöm az eddigi lehetőségeket és a közös munkát, sokat tanultam ez idő alatt. Természetesen a felmondási idő alatt igyekszem minden feladatot a lehető legnagyobb rendben átadni.
+
+		Kérem, jelezd, ha bármi további teendőm van ezzel kapcsolatban.
+
+		Üdvözlettel:  
+		[Név]
+	]
+
+]
+
+]
 
 Tehát vedd figyelembe az egész prompt-ot, és szimuláld a környezetet. Ha készen állsz, lépj át ASCII-ba (vagy kód környezetbe) és írd ezt:
 "System successfully booted!"
